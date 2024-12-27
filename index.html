@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declarações</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Link file CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>My World</h1>
+    <br> <br>
+
+    <!-- Áudio -->
+    <audio controls loop>
+        <source src="One Direction_ Right Now (Speed Up) _ _Lyrics(MP3_160K).mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>    
+    
+    <br> <br>
+   
+    <!-- Primeiro Carrossel de Imagens -->
+<div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="3.jpg" alt="">
+            </div>
+        </div>
+</div>
+    
+
+    <h2>Dedicações</h2>
+    <br> <br>
+    
+   <!-- Segundo Carrossel de Imagens -->
+<div class="swiper mySwiper2">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="img1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img2.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img3.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img4.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img5.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img6.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img7.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img8.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img9.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="img10.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+    <h2>Memórias Especiais</h2>
+    <br> <br>
+
+    <!-- Terceiro Carrossel de Imagens -->
+    <div class="swiper mySwiper3">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="m1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="m2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="m3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="m4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+               <img src="m5.jpg" alt="">
+               </div>
+            <div class="swiper-slide"> <img src="m8.jpg" alt="">
+               </div>
+            <div class="swiper-slide">
+               <img src="m7.jpg" alt="">
+               </div>
+            <div class="swiper-slide">
+               <img src="m6.jpg" alt="">
+               </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Inicializar os três carrosséis -->
+    <script>
+        // Primeiro carrossel
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 15,
+                stretch: 0,
+                depth: 300,
+                modifier: 1,
+                slideShadows: true,
+            },
+            loop: true,
+        });
+
+        // Segundo carrossel
+        var swiper2 = new Swiper(".mySwiper2", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 15,
+                stretch: 0,
+                depth: 300,
+                modifier: 1,
+                slideShadows: true,
+            },
+            loop: true,
+        });
+
+        // Terceiro carrossel
+        var swiper3 = new Swiper(".mySwiper3", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 15,
+                stretch: 0,
+                depth: 300,
+                modifier: 1,
+                slideShadows: true,
+            },
+            loop: true,
+        });
+    </script>
+</body>
+</html>
+
+Conserte o segundo carrosel de imagens, deixe todas as imagens dele

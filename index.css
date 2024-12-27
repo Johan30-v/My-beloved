@@ -1,0 +1,89 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    
+}
+body{
+   min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    padding: 20px;
+    
+}
+h1{
+    color: aliceblue;
+    font-size: 55px;
+    margin: 10px;
+    
+
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 55px;
+   margin-top: 20px;
+   padding: 0;
+   display: inline-block;
+   z-index: 1;
+}
+
+.swiper {
+    width: 100%;
+   height: auto;
+   min-height: 300px;
+   margin-bottom: 100px;
+   padding: 0%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    -webkit-box-reflect: below 0px linear-gradient(transparent,transparent , #0002, #0004);
+  }
+
+  
+  
+  
+
+.swiper-slide img:hover {
+    box-shadow: 0 0 25px 5px rgba(255, 255, 255, 0.8); /* Intensifica o brilho ao passar o mouse */
+}
+
+
+
+.swiper-slide img:hover {
+    box-shadow: 0 0 50px 10px rgba(255, 255, 255, 1); /* Brilho mais intenso ao passar o mouse */
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 10px; /* Arredonda as bordas */
+    transition: box-shadow 0.3s ease-in-out; /* Efeito suave */
+    box-shadow: none; /* Sem brilho nas imagens que não estão ativas */
+}
+
+.swiper-slide-active img {
+    box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.8); /* Brilho branco na imagem ativa */
+}
+
+
+
+  
+  
+
